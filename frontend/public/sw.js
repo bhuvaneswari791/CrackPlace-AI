@@ -1,9 +1,9 @@
 const CACHE_NAME = 'crackplace-cache-v1';
 const ASSETS_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/favicon.svg',
-  '/manifest.json'
+  './',
+  './index.html',
+  './favicon.svg',
+  './manifest.json'
 ];
 
 self.addEventListener('install', (event) => {

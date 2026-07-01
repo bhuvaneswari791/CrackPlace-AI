@@ -7,7 +7,7 @@ import App from './App.tsx'
 const originalFetch = window.fetch;
 window.fetch = (input, init) => {
   if (typeof input === 'string' && input.startsWith('/api')) {
-    const apiBase = import.meta.env.VITE_API_URL || 'https://bhuvaneswari791.github.io/CrackPlace-AI';
+    const apiBase = import.meta.env.VITE_API_URL || 'http://localhost:5000';
     input = `${apiBase}${input}`;
   }
   return originalFetch(input, init);

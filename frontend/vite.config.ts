@@ -12,7 +12,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://bhuvaneswari791.github.io/CrackPlace-AI',
+        target: 'http://localhost:5000',
         changeOrigin: true,
         secure: false
       }
