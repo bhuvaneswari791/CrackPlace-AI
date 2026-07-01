@@ -118,7 +118,7 @@ export const Battle: React.FC = () => {
   const battleSocket = useRef<Socket | null>(null);
 
   const getSocketUrl = () => {
-    return window.location.hostname === 'localhost' ? 'http://localhost:5000' : window.location.origin;
+    return window.location.hostname === 'localhost' ? 'https://bhuvaneswari791.github.io/CrackPlace-AI' : window.location.origin;
   };
 
   // 1. Join matchmaking queue
