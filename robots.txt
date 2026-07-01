@@ -1,0 +1,34 @@
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /contact
+Allow: /privacy
+Allow: /terms
+Allow: /faq
+Allow: /blog
+Allow: /blog/
+Allow: /company
+Allow: /company/
+Allow: /notes
+Allow: /notes/
+Disallow: /login
+Disallow: /register
+Disallow: /forgot-password
+Disallow: /invite/
+Disallow: /dashboard
+Disallow: /quiz
+Disallow: /coding
+Disallow: /hr-interview
+Disallow: /battle
+Disallow: /practice
+Disallow: /leaderboard
+Disallow: /profile
+Disallow: /personalization
+Disallow: /store
+Disallow: /admin
+
+# Host
+Host: https://bhuvaneswari791.github.io/CrackPlace-AI
+
+# Sitemap
+Sitemap: https://bhuvaneswari791.github.io/CrackPlace-AI/sitemap.xml

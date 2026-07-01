@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script>
+    var path = window.location.pathname;
+    var repo = "/CrackPlace-AI";
+
+    var newUrl =
+      window.location.origin +
+      repo +
+      "/?redirect=" +
+      encodeURIComponent(
+        path.replace(repo, "") +
+        window.location.search +
+        window.location.hash
+      );
+
+    window.location.replace(newUrl);
+  </script>
+</head>
+<body>
+  Redirecting...
+</body>
+</html>
